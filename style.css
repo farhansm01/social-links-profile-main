@@ -32,6 +32,64 @@ main {
 }
 
 .card {
-  width: 22rem;
+  width: 23rem;
   color: var(--clr-white);
+  background-color: var(--clr-grey-800);
+  padding: 2.5rem 0 1.25rem 0;
+  border-radius: 0.7rem;
+}
+.card .img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+.card .img img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: block;
+}
+
+.card .info h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card .info p {
+  text-align: center;
+  font-size: 0.86rem;
+  margin-top: 0.3rem;
+  line-height: 1.5rem;
+}
+
+.card .info .p1 {
+  color: var(--clr-green);
+  margin-bottom: 1.4rem;
+}
+
+.card .info .p2 {
+  color: var(--clr-white);
+  margin-bottom: -0.5rem;
+}
+
+.card .link-section {
+  margin: 0.9rem 2.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .link-section a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: var(--clr-white);
+  background-color: var(--clr-grey-700);
+  padding: 0.8rem 1.6rem;
+  margin-top: 1rem;
+  border-radius: 0.6rem;
+  font-weight: 700;
+  font-size: 0.9rem;
 }
