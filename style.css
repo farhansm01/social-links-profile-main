@@ -92,4 +92,15 @@ main {
   border-radius: 0.6rem;
   font-weight: 700;
   font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.card .link-section a:hover {
+  background-color: var(--clr-green);
+  color: var(--clr-grey-900);
+  cursor: pointer;
+}
+
+.card .link-section a:active {
+  transform: scale(0.97);
 }
